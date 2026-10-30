@@ -1,0 +1,200 @@
+
+    
+    *{ 
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: #080b14;
+      color: #ffffff;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 24px 10%;
+      background: black;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .logo {
+      color:aquamarine;
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 22px;
+    }
+
+    nav a:hover {
+      color: aquamarine;
+    }
+
+    section {
+      padding: 90px 10%;
+    }
+
+    #home :hover {
+      transform: translateY(-7px);
+      border-color: aquamarine;
+      box-shadow: 00 20px gray;
+    }
+
+    .hero {
+      min-height: 85vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .hero h1 {
+      font-size: clamp(40px, 7vw, 76px);
+      margin: 15px 0;
+    }
+
+    .hero h1 span {
+      color:aquamarine;
+    }
+
+    .hero p {
+      color: azure;
+      font-size: 18px;
+      line-height: 1.8;
+      max-width: 550px;
+    }
+
+    .tag {
+      color: #00d9ff;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 28px;
+      padding: 13px 24px;
+      background: aquamarine;
+      color: black;
+      font-weight: bold;
+      border-radius: 8px;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+    }
+
+    h2 {
+      font-size: 36px;
+      margin-bottom: 25px;
+    }
+
+    h2 span {
+      color: aquamarine;
+    }
+
+    .about p {
+      color: azure;
+      line-height: 1.9;
+      max-width: 750px;
+    }
+
+    .skills, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      height: 100px;
+      margin-bottom: 280px;
+    }
+
+    .card {
+      background: black;
+      border: 1px solid gray;
+      border-radius: 14px;
+      padding: 25px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-7px);
+      border-color: aquamarine;
+      box-shadow: 0 0 20px gray;
+    }
+
+    .card h3 {
+      color: aquamarine;
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      color: azure;
+      line-height: 1.7;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    .contact p {
+      color: aliceblue;
+    }
+
+    .contact:hover {
+      transform: translateY(-7px);
+      border-color: aquamarine;
+      box-shadow: 00 20px gray;
+    }
+
+    .btn{
+      border: none;
+      border-radius: 8px;
+      padding: 13px;
+      font-weight: bold;
+    }
+
+    textarea{
+      border: none;
+      border-radius: 5px;
+      padding: 13px;
+      font-weight: bold;
+      background: wheat;
+      color: rgb(39,34,34);
+      width: 100%;
+    }
+
+
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: black;
+      color: black;
+    }
+
+    @media (max-width: 412px) {
+      header {
+        padding: 20px 5%;
+        flex-wrap: wrap;
+        gap: 15px;
+      }
+
+      nav a {
+        margin-left: 0;
+        margin-right: 12px;
+        font-size: 14px;
+      }
+
+      section {
+        padding: 65px 7%;
+      }
+    }
+  

@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: black;
+    color: azure;
+   
+}
+header {
+    background-color: rgb(51, 53, 223);
+    padding-inline-start: 10px;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(84, 201, 171);
+    float: top;
+}
+h1 {
+    align-content: center;
+    padding: 10px;
+}
+
+nav {
+    font-family: Arial, Helvetica, sans-serif ;
+    width: 1830px;
+    height: 170px;
+    background-color: rgb(64, 135, 243);
+    padding: 16px;
+    text-decoration: none;
+    border: 5px solid rgb(53, 72, 141);
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgb(7, 65, 139);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0%;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(2, 0, 0);
+    padding: 5px;
+    font-weight: 1000px;
+    font-size: 15px;
+    transition: 0s;
+    display: block;
+}
+
+nav a:hover,
+nav a:active {
+    background-color: rgb(131, 159, 236);
+}
+article {
+    float: left;
+    padding: 20px;
+    width: 70px;
+    background-color: rgb(28, 30, 148);
+    height: 300px
+}
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    background-color: rgb(24, 8, 168);
+    padding:10px ;
+    text-align: center;
+    color: rgba(75, 170, 207, 0.582);
+   
+}
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: 1px solid rgb(16, 36, 216);
+    
+}
